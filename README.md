@@ -24,7 +24,6 @@
   - [City × Month Pricing Matrix](#city--month-pricing-matrix)
   - [Weekly P&L](#weekly-pl--at-25-lakh-workers)
   - [Insurance Scale Scenarios](#insurance-profit-model--3-scenarios)
-- [Go-to-Market Strategy](#-go-to-market-strategy)
 - [Technical Architecture](#-technical-architecture)
 - [AI / ML Integration](#-aiml-integration)
 - [Tech Stack](#-tech-stack)
