@@ -23,10 +23,7 @@
   - [All 52 Weeks Priced](#all-52-weeks-priced--safeweek-pro)
   - [City × Month Pricing Matrix](#city--month-pricing-matrix)
   - [Weekly P&L](#weekly-pl--at-25-lakh-workers)
-  - [3-Year P&L](#3-year-profit--loss)
   - [Insurance Scale Scenarios](#insurance-profit-model--3-scenarios)
-  - [App Build Costs](#app-build-cost-breakdown)
-  - [Regulatory Path](#regulatory-path)
 - [Go-to-Market Strategy](#-go-to-market-strategy)
 - [Technical Architecture](#-technical-architecture)
 - [AI / ML Integration](#-aiml-integration)
@@ -327,52 +324,7 @@ Every single week must be independently profitable. The price each week reflects
 
 ---
 
-### 3-Year Profit & Loss
 
-| P&L Line Item | Year 1 | Year 2 | Year 3 |
-|---------------|--------|--------|--------|
-| **Workers enrolled** | 50,000 | 2,50,000 | 8,00,000 |
-| | | | |
-| **REVENUE** | | | |
-| Gross premium collected | +₹77L | +₹572L | +₹1,914L |
-| | | | |
-| **COST OF INSURANCE** | | | |
-| Claims paid to workers | −₹42L | −₹210L | −₹650L |
-| Reinsurance premium (15%→12% at Y3) | −₹11.6L | −₹85.8L | −₹229.6L |
-| **Gross underwriting profit** | **₹23.4L (30.4%)** | **₹276.2L (48.3%)** | **₹1,034.4L (54%)** |
-| | | | |
-| **APP & TECHNOLOGY** | | | |
-| App build / MVP development | −₹28L | −₹5L | −₹5L |
-| AI / ML risk + fraud engine | −₹18L | −₹8L | −₹10L |
-| UI/UX, QA, security audit | −₹14L | −₹3L | −₹3L |
-| Cloud infrastructure (AWS/GCP) | −₹5L | −₹18L | −₹40L |
-| API integrations + admin panel | −₹10L | −₹6.5L | −₹7L |
-| **Total tech** | **−₹75L (97.4%)** | **−₹40.5L (7.1%)** | **−₹65L (3.4%)** |
-| | | | |
-| **REGULATORY & COMPLIANCE** | | | |
-| IRDAI broker license + filing | −₹5L | −₹0.5L | −₹0.5L |
-| Regulatory capital *(blocked, not burned)* | −₹75L | — | — |
-| Compliance officer + legal + audits | −₹19.1L | −₹18L | −₹23.5L |
-| **Total regulatory** | **−₹99.1L** | **−₹18.5L** | **−₹24L** |
-| | | | |
-| **PEOPLE & OPERATIONS** | | | |
-| Engineering + product team salaries | −₹42L | −₹90L | −₹216L |
-| Customer support + office + misc | −₹23.1L | −₹33L | −₹66L |
-| **Total opex** | **−₹65.1L** | **−₹123L** | **−₹282L** |
-| | | | |
-| **SALES & MARKETING** | | | |
-| CAC per worker | ₹180 | ₹140 | ₹80 |
-| Total CAC spend | −₹90L | −₹280L | −₹440L |
-| Marketing + partnerships | −₹23L | −₹25L | −₹20L |
-| **Total sales & marketing** | **−₹113L** | **−₹305L** | **−₹460L** |
-| | | | |
-| **NET PROFIT / (LOSS)** | **🔴 −₹3.24 Cr** | **🟡 −₹1.94 Cr** | **🟢 +₹2.27 Cr** |
-| Net margin | — | — | **11.9%** |
-| Cumulative cash position | −₹3.24 Cr | −₹5.18 Cr | −₹2.91 Cr |
-
-> 📌 **Break-even: Month ~26 (Q2 Year 3)** · **Seed required: ₹4–5 Cr** · **Real cash burn Y1: ~₹2.5 Cr** *(₹75L regulatory capital stays on balance sheet)*
-
----
 
 ### Insurance Profit Model — 3 Scenarios
 
@@ -394,39 +346,9 @@ Every single week must be independently profitable. The price each week reflects
 
 ---
 
-### App Build Cost Breakdown
 
-| Category | Item | Year 1 Cost | Notes |
-|----------|------|------------|-------|
-| App Build | MVP development (Android + backend) | ₹28L | India-based team |
-| App Build | AI/ML risk + fraud engine | ₹18L | Scikit-learn, FastAPI |
-| App Build | UI/UX, QA, security audit | ₹14L | Onboarding + claims flow |
-| App Build | API integrations (weather, payment) | ₹5L | IMD, CPCB, Razorpay |
-| App Build | Admin panel + analytics dashboard | ₹5L | React web |
-| Regulatory | IRDAI broker license + filing | ₹5L | One-time |
-| Regulatory | **Minimum capital (BLOCKED — not burned)** | **₹75L** | Stays on balance sheet |
-| Regulatory | Compliance + legal + audits | ₹19.1L | Year 1 total |
-| Operations | Core team (2 dev, 1 PM, 1 ops) | ₹48L | Annual salaries |
-| Operations | Cloud + support + office | ₹17.1L | Annual |
-| Go-to-Market | CAC — 50,000 workers @ ₹180 | ₹90L | Direct acquisition |
-| Go-to-Market | Marketing + partnerships | ₹23L | Social, WhatsApp, BD |
-| | **TOTAL INVESTMENT YEAR 1** | **~₹3.47 Cr** | |
-| | Seed round needed | **₹4–5 Cr** | Covers Y1 + Y2 buffer |
-| | Real cash burn Y1 | **~₹2.5 Cr** | Capital stays on BS |
 
----
 
-### Regulatory Path
-
-| Path | Option | Capital Required | Timeline | Best For | Recommendation |
-|------|--------|-----------------|----------|----------|---------------|
-| **A ⭐** | **IRDAI Regulatory Sandbox** | ~₹25L | 3–4 months | MVP validation with real users | **Start here** |
-| B | IRDAI Direct Broker License | ₹75L (blocked) | 6–9 months | Full product launch | After sandbox |
-| C | Full General Insurer License | ₹100 Cr | 2–3 years | Own the risk, max margin | Series B stage |
-
-> 💡 **Recommended first move:** Apply to IRDAI Regulatory Sandbox (12-month pilot). Validate parametric triggers with real riders before committing ₹75L to broker license. Use sandbox data to raise seed round.
-
----
 
 ## 🚀 Go-to-Market Strategy
 
@@ -640,10 +562,8 @@ notification-service/
 | Fraud prevention | ML fraud scorer (0–1): GPS + zone + activity + duplicate. 85% auto-approved. |
 | Target persona | Q-Commerce riders (Blinkit, Zepto, Instamart) — highest disruption sensitivity |
 | Addressable market | ~35 Lakh delivery workers; 9 Lakh Q-Commerce riders as core target |
-| Financial model | Break-even Month 26 · Year 3: ₹2.27 Cr net profit at 11.9% margin (8L workers) |
-| Regulatory path | IRDAI Sandbox → Broker License (₹75L) → Full Insurer (Series B) |
-| Distribution moat | Platform auto-deduction — CAC drops to ₹30–50 at scale |
-| Seed requirement | ₹4–5 Cr (₹2.5 Cr real cash burn; ₹75L regulatory capital on balance sheet) |
+
+
 
 ---
 
