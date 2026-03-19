@@ -17,7 +17,7 @@
 - [Market Size](#-market-size)
 - [Target Persona](#-target-persona--q-commerce-rider)
 - [Disruption Data](#-disruption-data)
-- [How ParaGuard Works](#-how-paraguard-works)
+- [How ParaGuard Works](#how-paraguard-works)
 - [Financial Model](#-financial-model)
   - [The 3 Weekly Plans](#the-3-weekly-plans)
   - [All 52 Weeks Priced](#all-52-weeks-priced--safeweek-pro)
@@ -26,7 +26,7 @@
   - [Insurance Scale Scenarios](#insurance-profit-model--3-scenarios)
 - [Technical Architecture](#-technical-architecture)
 - [AI / ML Integration](#-aiml-integration)
-- [Tech Stack](#-tech-stack)
+- [Tech Stack](#tech-stack)
 - [Microservice File Structures](#-microservice-file-structures)
 - [Summary](#-summary)
 
