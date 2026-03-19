@@ -410,6 +410,7 @@ Composite fraud scoring model (0–1). No single signal triggers rejection — a
 ---
 
 ## 🛠️ Tech Stack
+Paragaurd will be a mobile platform, keeping in mind the ease of use for it's target demographic who might lack access to a desktop.
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -429,6 +430,7 @@ Composite fraud scoring model (0–1). No single signal triggers rejection — a
 ## 📂 Microservice File Structures
 
 ### 1. User & Persona Service (Node.js / MongoDB)
+Responsible for onboarding users and storing delivery partner profiles.
 
 ```
 user-service/
@@ -442,6 +444,7 @@ user-service/
 ```
 
 ### 2. Policy & Premium Service (Java / PostgreSQL)
+Manages weekly policies, contracts, and premium calculations.
 
 ```
 policy-service/
@@ -455,6 +458,7 @@ policy-service/
 ```
 
 ### 3. Monitor & Trigger Service (Node.js / Redis)
+Acts as the parametric trigger engine by polling external APIs.
 
 ```
 monitor-service/
@@ -467,6 +471,7 @@ monitor-service/
 ```
 
 ### 4. Claims & Fraud AI Service (Python / FastAPI)
+The AI engine responsible for anomaly detection and claim validation.
 
 ```
 claims-ai-service/
@@ -480,7 +485,7 @@ claims-ai-service/
 ```
 
 ### 5. Payment Service (Node.js)
-
+Responsible for secure payments
 ```
 payment-service/
 ├── src/
@@ -488,17 +493,6 @@ payment-service/
 │   ├── gateways/         # Razorpay mock + UPI integration
 │   └── services/         # Premium collection, weekly deduction
 └── server.js
-```
-
-### 6. Notification Service (Node.js / Redis)
-
-```
-notification-service/
-├── src/
-│   ├── templates/        # Sunday pricing alert, payout confirmation, streak reward
-│   ├── channels/         # FCM (push), WhatsApp Business API, SMS
-│   └── scheduler/        # Sunday 8pm cron — weekly tier announcement
-└── app.js
 ```
 
 ---
