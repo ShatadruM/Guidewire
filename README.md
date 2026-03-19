@@ -346,54 +346,6 @@ Every single week must be independently profitable. The price each week reflects
 
 ---
 
-
-
-
-
-## 🚀 Go-to-Market Strategy
-
-### Platform Partnership — The Distribution Moat
-
-> *"Auto-deduct ₹45/week from Zomato/Swiggy weekly payout. Zero UX friction for the worker."*
-
-| Distribution Channel | CAC | Conversion Rate | Retention Rate | Notes |
-|---------------------|-----|----------------|---------------|-------|
-| Direct (app download, social) | ₹180/worker | 15–20% | 65% | Year 1 primary channel |
-| Referral (worker-to-worker) | ₹120/worker | 25–35% | 72% | Year 1–2 supplementary |
-| Platform embed (auto-deduct) | ₹80/worker | 70–85% | 90%+ | Year 2–3 primary |
-| **Zomato/Swiggy deal (target)** | **₹30–50/worker** | **85–95%** | **92%+** | Target: close by Y2 Q2 |
-
-> 🎯 Closing a Zomato/Swiggy auto-deduct deal pushes net margin from **11.9% → 20–22%** and adds ~₹1.5 Cr to Year 3 bottom line.
-
-### City Launch Sequence
-
-| Phase | Cities | Timeline | Rationale | Target Workers |
-|-------|--------|----------|-----------|---------------|
-| Phase 1 (Pilot) | **Bengaluru** | Month 1–4 | Medium risk, tech-savvy riders, lowest CAC — validate model | 10,000–20,000 |
-| Phase 2 (Scale) | **Delhi NCR + Mumbai** | Month 5–12 | Highest worker density, prove Very High risk weeks work | +30,000–50,000 |
-| Phase 3 (Expand) | **Hyderabad + Chennai** | Year 2 Q1–Q2 | High disruption, strong Q-commerce presence | +50,000–1,00,000 |
-| Phase 4 (National) | **Pune, Kolkata, Ahmedabad, Jaipur, Lucknow** | Year 2 Q3–Year 3 | Complete Tier 1+2 city coverage | +1,50,000+ |
-
-### Retention Mechanics — Weekly Streak Rewards
-
-| Streak Milestone | Reward | Cost to ParaGuard | Retention ROI |
-|-----------------|--------|------------------|--------------|
-| 12 continuous weeks | ₹50 cashback via UPI | ₹50/worker | 9.4× |
-| 26 continuous weeks | ₹150 cashback via UPI | ₹150/worker | 7.3× |
-| **52 weeks (full year)** | **₹400 cashback + Gold badge** | ₹400/worker | **5.5×** |
-| Max annual cashback | ₹600/worker/year | 2.75% of annual premium | **Avg 7× ROI** |
-
-### Default-On Enrollment Logic
-
-| Design Choice | Impact |
-|---------------|--------|
-| Default enrolled = active (opt-out model) | **85% weekly renewal** vs 60% with active opt-in |
-| 1 skip allowed per quarter (no questions asked) | Removes "I'll cancel" reaction — paradoxically increases retention ~15% |
-| Saturday midnight opt-out deadline | Gives workers full week to decide; Sunday deduction aligns with platform payout |
-| Sunday 8pm next-week notification | Worker knows price 36hrs before deduction — no surprises = trust |
-
----
-
 ## 🏗️ Technical Architecture
 
 ParaGuard follows a **Microservices Architecture** to ensure:
