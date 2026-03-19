@@ -656,6 +656,6 @@ notification-service/
 
 **Data Sources:** NCAER 2022 · TGPWU/HeatWatch 2024 · IMD 2024 · CPCB · Zomato/Swiggy Q3 FY25 filings · Borzo Gig Worker Survey 2025 · IRDAI Regulations 2024
 
-*ParaGuard — Protecting India's Gig Economy, One Week at a Time* 🛡️
+
 
 </div>
